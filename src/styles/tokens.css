@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@theme {
+  --color-canvas: #0b1220;
+  --color-panel: #111d2e;
+  --color-raised: #19283b;
+  --color-ink: #eef3f9;
+  --color-secondary: #afbed0;
+  --color-muted: #93a5bc;
+  --color-blue: #78aaff;
+  --color-teal: #65d5c2;
+  --color-coral: #ff9c8c;
+  --color-line: #2a3b51;
+  --color-control: #71849e;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+    "Malgun Gothic", sans-serif;
+}
+:root {
+  color-scheme: dark;
+  --color-on-accent: #0b1220;
+  --color-accent-hover: #9bbfff;
+  --color-risk-surface: #33272c;
+  --color-risk-border: #94635f;
+  --color-selection: #304d76;
+  --color-shadow: #0008;
+  --color-backdrop: #040812b8;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  font-synthesis: none;
+  font-weight: 400;
+  --sidebar: clamp(192px, calc(5vw + 120px), 216px);
+  --gutter: clamp(24px, 1.6667vw, 32px);
+  --gap: clamp(16px, calc(1.6667vw - 8px), 24px);
+  --query: clamp(216px, calc(11.6667vw + 48px), 272px);
+  --evidence: clamp(416px, calc(13.333vw + 224px), 480px);
+  --header: 64px;
+  --title-row: 64px;
+  --bottom: 36px;
+  --dock: 80px;
+  --kpi: 128px;
+  --panel-pad: 16px;
+  --row: 48px;
+  --body: 16px;
+  --section: 18px;
+  --page: 24px;
+  --number: 40px;
+  --compare: 56px;
+  --meta: 14px;
+  --fast: 200ms;
+  --transition: 300ms;
+}
+::selection {
+  background: var(--color-selection);
+  color: var(--color-ink);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-canvas: #f3f6fa;
+  --color-panel: #ffffff;
+  --color-raised: #e9eff6;
+  --color-ink: #17263c;
+  --color-secondary: #42546c;
+  --color-muted: #52657c;
+  --color-blue: #2458c6;
+  --color-teal: #087566;
+  --color-coral: #b64031;
+  --color-line: #d3dce7;
+  --color-control: #73849a;
+  --color-on-accent: #ffffff;
+  --color-accent-hover: #1d48a5;
+  --color-risk-surface: #fff0eb;
+  --color-risk-border: #bd6c60;
+  --color-selection: #c9dcff;
+  --color-shadow: #17263c29;
+  --color-backdrop: #17263c66;
+}

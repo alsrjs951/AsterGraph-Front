@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>AsterGraph</title>
+  <path d="M4 40 20 8h8l16 32H34L24 18 14 40Z" fill="#78AAFF"/>
+  <path d="M15 30h16l9-10" stroke="#65D5C2" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="37" y="17" width="6" height="6" rx="1" fill="#65D5C2"/>
+</svg>

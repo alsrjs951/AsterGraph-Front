@@ -1,0 +1,171 @@
+{
+  "master": "/Users/lmg/Projects/AsterGraph-Front/artifacts/videos/AsterGraph-Light-4K.mp4",
+  "share": "/Users/lmg/Projects/AsterGraph-Front/artifacts/videos/AsterGraph-Light-1080p.mp4",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "output": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 900,
+  "duration": 30,
+  "audio": false,
+  "capture": "Actual Chrome render; frame-stepped application clock and CSS animations",
+  "errors": [],
+  "externalRequests": [],
+  "samples": [
+    {
+      "frame": 0,
+      "seconds": 0,
+      "page": "overview",
+      "scene": "0",
+      "playing": "true",
+      "theme": "light",
+      "caption": "하나의 장애, 여러 시스템",
+      "kpis": [
+        null,
+        null,
+        null
+      ],
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 135,
+      "seconds": 4.5,
+      "page": "operations",
+      "scene": "1",
+      "playing": "true",
+      "theme": "light",
+      "caption": "흩어진 데이터를 하나로 연결",
+      "kpis": [
+        "—",
+        "—",
+        "—"
+      ],
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 240,
+      "seconds": 8,
+      "page": "operations",
+      "scene": "2",
+      "playing": "true",
+      "theme": "light",
+      "caption": "복잡한 분석도 질문 하나로",
+      "kpis": [
+        "—",
+        "—",
+        "—"
+      ],
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 375,
+      "seconds": 12.5,
+      "page": "operations",
+      "scene": "3",
+      "playing": "true",
+      "theme": "light",
+      "caption": "영향받는 주문과 판단 근거까지",
+      "kpis": [
+        "38건",
+        "26건",
+        "12건"
+      ],
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 450,
+      "seconds": 15,
+      "page": "operations",
+      "scene": "3",
+      "playing": "true",
+      "theme": "light",
+      "caption": "영향받는 주문과 판단 근거까지",
+      "kpis": [
+        "38건",
+        "26건",
+        "12건"
+      ],
+      "evidence": "서울 센터에서 1개 대체 출고 가능가용 26개 중 이 주문 1개 배정 가능",
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 600,
+      "seconds": 20,
+      "page": "operations",
+      "scene": "4",
+      "playing": "true",
+      "theme": "light",
+      "caption": "답변을 넘어, 실행 가능한 대응안으로",
+      "kpis": [
+        "38건",
+        "26건",
+        "12건"
+      ],
+      "evidence": "서울 센터에서 1개 대체 출고 가능가용 26개 중 이 주문 1개 배정 가능",
+      "plan": "시뮬레이션 결과주문 목록조치 전지연 위험38건대체 출고 계획 적용 후잔여 지연 위험12건조치 전38계획 적용 후1226건 대체 출고 제안서울 SKU_A 26개 배정 가정대상 보기12건 고객 안내 우선 대상대체 재고가 없는 주문대상 보기48시간 장애·목업 재고 기준의 계획 미리보기입니다.시뮬레이션 해제",
+      "ontologyNodes": 0,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 855,
+      "seconds": 28.5,
+      "page": "end",
+      "scene": "5",
+      "playing": "true",
+      "theme": "light",
+      "caption": "이 모든 판단의 기반, 관리되는 기업 온톨로지",
+      "kpis": [
+        null,
+        null,
+        null
+      ],
+      "ontologyNodes": 6,
+      "demoVisible": true,
+      "controlsHidden": true,
+      "scroll": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

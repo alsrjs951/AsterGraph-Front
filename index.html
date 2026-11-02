@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0B1220" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("astergraph-theme") === "light"
+            ? "light"
+            : "dark";
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+    <meta
+      name="description"
+      content="AsterGraph — 데이터를 연결하고, 결정을 앞당기다. 로컬 데이터 기반 Operations Intelligence 시뮬레이션."
+    />
+    <link rel="icon" href="/astergraph.svg" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <link rel="manifest" href="/brand/site.webmanifest" />
+    <title>AsterGraph · Operations Intelligence</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

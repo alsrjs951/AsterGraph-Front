@@ -1,0 +1,18 @@
+[
+  {
+    "file": "AsterGraph-Light-4K.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 30,
+    "error": null,
+    "seekChecks": 6
+  },
+  {
+    "file": "AsterGraph-Light-1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 30,
+    "error": null,
+    "seekChecks": 6
+  }
+]

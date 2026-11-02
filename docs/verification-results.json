@@ -1,0 +1,89 @@
+{
+  "verified_on": "2026-11-01",
+  "unit_tests": 24,
+  "browser_stats": {
+    "startTime": "2026-11-01T02:08:48.569Z",
+    "duration": 111627.45300000001,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "typecheck": "passed",
+  "production_build": "passed",
+  "playback_observed_ms": [
+    30354,
+    30322,
+    30351
+  ],
+  "app_duration_ms": 30000,
+  "external_requests": 0,
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      1710,
+      1107
+    ],
+    [
+      1710,
+      924
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "post_hmr_fix_browser_stats": {
+    "startTime": "2026-11-01T01:58:10.705Z",
+    "duration": 19000.712,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "hmr_smoke": "App and ErrorBoundary updated and restored; no console errors or duplicate roots",
+  "production_js": "index-ChkFohBU.js",
+  "native_browser_viewport": [
+    1710,
+    923
+  ],
+  "design_review": {
+    "method": "dual-agent",
+    "cli_findings": 0,
+    "browser_console_errors": 0,
+    "overlay": "unavailable: read-only evaluation",
+    "support_views_fit_above_controls": true
+  },
+  "logo_and_theme": {
+    "verified_on": "2026-11-01",
+    "unit_tests": 24,
+    "browser_tests_passed": 13,
+    "typecheck": "passed",
+    "build": "passed",
+    "production_js": "index-B7BicrM-.js",
+    "long_playback_test": "not rerun; previous 3-run result retained",
+    "light_viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1920,
+        1080
+      ]
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "light_text_contrast": "6 semantic tokens on raised surface >= 4.5:1",
+    "native_preview": "IAB; no warnings or errors"
+  }
+}
